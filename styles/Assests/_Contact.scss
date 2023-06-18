@@ -1,0 +1,84 @@
+.Contact {
+  .contact-box {
+    padding: 40px;
+  }
+  .one {
+    background-color: $red-color;
+    color: white;
+  }
+  .two {
+    background-color: $gold-color;
+    color: black;
+  }
+  .box-head {
+    font-size: 33px;
+    font-family: $custom-font;
+    font-weight: bold;
+  }
+  .box-desc {
+    width: 80%;
+    padding: 15px 0;
+    a {
+      color: white;
+      width: fit-content;
+      border-bottom: 1px solid white;
+    }
+  }
+  .content {
+    padding: 15px 0;
+  }
+  .head {
+    font-size: 20px;
+    .bi {
+      margin-right: 15px;
+    }
+    font-family: $header-font;
+  }
+  .desc {
+    margin-left: 35px;
+    font-size: 20px;
+  }
+  .details {
+    color: black;
+  }
+  .icons {
+    position: relative;
+    left: 80%;
+    .bi {
+      margin: 0px 10px;
+    }
+  }
+  form {
+    width: 80%;
+    .lable {
+      font-size: 19px;
+    }
+    input {
+      margin-bottom: 20px;
+    }
+    #msg {
+      resize: none;
+      height: 100px;
+    }
+    #submit {
+      background-color: white;
+      color: black;
+      margin-top: 20px;
+      border: none;
+    }
+  }
+  @media (max-width: 992px) {
+    .contact-box {
+      form {
+        width: 100%;
+        input {
+          height: 50px;
+          margin-top: 5px;
+        }
+      }
+      .icons {
+        left: 0;
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+@import "bootstrap/dist/css/bootstrap.css"; //bootstrap
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap"); //header font
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@400&display=swap"); // main font
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap"); // custom font
+$main-font: "Jost";
+$header-font: "Montserrat";
+$custom-font: "Titillium Web";
+$gold-color: #f2c81a;
+$red-color: #f4131d;
+$blue-color: #4894b6;
+$green-color: #65ca5a;
+body {
+  overflow-x: hidden;
+}
+* {
+  font-family: $main-font;
+  text-decoration: none !important;
+}
+a {
+  display: inline-block;
+  text-decoration: none !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: bold;
+}
+.handel-margin-padding {
+  padding: 40px 0;
+  margin-top: 30px;
+}
+.copy {
+  text-align: center;
+  padding: 5px 0;
+  a {
+    color: black;
+    font-weight: bold;
+    font-family: $custom-font;
+  }
+  .social {
+    a {
+      margin: 0px 5px;
+    }
+  }
+}
+@import "Assests/Header";
+@import "Assests/About";
+@import "Assests/Teams";
+@import "Assests/LittleMore";
+@import "Assests/Contact";
+@import "Assests/Resgister";
+@import "Assests/Profile";

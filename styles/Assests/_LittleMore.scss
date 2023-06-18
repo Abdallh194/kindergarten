@@ -1,0 +1,44 @@
+.LittleMore {
+  background-color: $red-color;
+  padding: 70px 0;
+  text-align: center;
+  color: white;
+  .fr-head {
+    font-size: 24px;
+  }
+  .head {
+    font-family: $custom-font;
+    font-weight: bold;
+    font-size: 50px;
+  }
+  .desc {
+    width: 60%;
+    margin: 20px auto;
+  }
+  .more {
+    background-color: transparent;
+    width: 150px;
+    padding: 7px 0;
+    margin: auto;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+    user-select: none;
+    transition: 0.2s;
+    &:hover {
+      background-color: white;
+      color: $blue-color;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .desc {
+      width: 100%;
+    }
+  }
+  @media (max-width: 575px) {
+    .head {
+      font-size: 38px;
+    }
+  }
+}
